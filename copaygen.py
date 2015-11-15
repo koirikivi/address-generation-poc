@@ -6,7 +6,7 @@ public addresses that Copay uses.
 The gist of the code is the `bip32_hdm_addr` function from the pybitcointools
 package, which is used like this:
 
-    bip32_hdm_addr
+    bip32_hdm_addr(
         <list of extended pubkeys>,
         <number of required pubkeys (the m in m-of-n)>,
         <derivation path as list>
